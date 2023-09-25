@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Include your CSS and JavaScript files -->
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <script src="script.js"></script>
+    <title>Team Details</title>
+</head>
+<body>
+    <!-- Display team details -->
+    <h1>Team Name: RCB</h1>
+    <img src="https://e0.pxfuel.com/wallpapers/662/66/desktop-wallpaper-rcb-logo-rcb-team-thumbnail.jpg" alt="Team 1 Icon">
+    <p>Player Count: 11</p>
+    <p>Top Batsman: virat kohli</p>
+    <p>Top Bowler: Mohhamad siraj</p>
+    <p>Championship Won Count: 0</p>
+
+    <h1>Team Name: MI</h1>
+    <img src="https://wallpapers.com/images/hd/mumbai-indians-stylized-lettering-logo-9y583dm0eo8zc31a.jpg" alt="Team 1 Icon">
+    <p>Player Count: 11</p>
+    <p>Top Batsman: ROHIT SHARMA</p>
+    <p>Top Bowler: JASPRIT BUMRSH</p>
+    <p>Championship Won Count: 5</p>
+    
+
+    <h1>Team Name: CSK</h1>
+    <img src="https://i.pinimg.com/originals/85/52/f8/8552f811e95b998d9505c43a9828c6d6.jpg" alt="Team 1 Icon">
+    <p>Player Count: 11</p>
+    <p>Top Batsman: MAHENDRA SINGH DHONI</p>
+    <p>Top Bowler: RAVINDRA JADEJA</p>
+    <p>Championship Won Count: 5</p>
+
+    <h1>Team Name: KKR</h1>
+    <img src="https://wallpapercave.com/wp/wp4298363.jpg" alt="Team 1 Icon">
+    <p>Player Count: 11</p>
+    <p>Top Batsman: shreyas iyer</p>
+    <p>Top Bowler: ANDRE RUSSELL </p>
+    <p>Championship Won Count: 1</p>
+
+
+    <h1>Team Name: SRH</h1>
+    <img src="https://upload.wikimedia.org/wikipedia/en/e/eb/Sunrisers_Hyderabad.png" alt="Team 1 Icon">
+    <p>Player Count: 11</p>
+    <p>Top Batsman: AIDEN MARKRAM</p>
+    <p>Top Bowler: BHUVENSHWAR KUMER </p>
+    <p>Championship Won Count: 1</p>
+
+    <h1>Team Name: DC</h1>
+    <img src="https://wallpapercave.com/wp/wp7548626.jpg" alt="Team 1 Icon">
+    <p>Player Count: 11</p>
+    <p>Top Batsman: RISHAV PANT</p>
+    <p>Top Bowler: lungi ngidi </p>
+    <p>Championship Won Count: 0</p>
+
+    <h1>Team Name: PUNJAB KINGS</h1>
+    <img src="https://www.punjabkingsipl.in/static-assets/images/cssimages/about-banner-mobile.png?v=3.0" alt="Team 1 Icon">
+    <p>Player Count: 11</p>
+    <p>Top Batsman: K L RAHUL</p>
+    <p>Top Bowler: MOHHAMAD SHAMI </p>
+    <p>Championship Won Count: 0</p>
+
+    <h1>Team Name: RAJASSTHAN ROYALS</h1>
+    <img src="https://gumlet.assettype.com/digitalterminal/2023-03/0e5daf59-77c0-431e-bef0-2f611ea7175b/TATA_IPL_2023.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true" alt="RAJASTHAN ROYALS">
+    <p>Player Count: 11</p>
+    <p>Top Batsman: SANJU SAMSON</p>
+    <p>Top Bowler: RAVI CHANDRA ASHWIN </p>
+    <p>Championship Won Count: 0</p>
+
+<style>
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* Base styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 28px;
+    margin-top: 20px;
+    color: #333;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 450px;
+    height: 300px;
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+    color: #555;
+}
+
+/* Player card styles */
+.player-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px; /* Adjust to your desired width */
+    width: 90%; /* Set a percentage width for responsiveness */
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.player-card:hover {
+    transform: scale(1.05);
+}
+
+.player-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.player-name {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #333;
+}
+
+.player-info {
+    font-size: 18px;
+    color: #666;
+    margin: 5px 0;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .player-card {
+        width: 95%; /* Adjust as needed */
+    }
+}
+
+@media (max-width: 480px) {
+    .player-card {
+        width: 100%; /* Adjust as needed */
+    }
+}  
+
+
+    
+   
+</style>
+    
+
+    <div class="player-card" onclick="goToPlayerDetails('PlayerName2')">
+        <!-- Add player details for Player 2 -->
+    </div>
+    <!-- Add more player cards as needed -->
+
+
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <script src="data.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <input type="text" id="playerId" />
+            </div>
+            <div>
+                <select name="Team" id="teamId">
+                    <option value="MI">MI</option>
+                    <option value="RCB">RCB</option>
+                    <option value="RR">RR</option>
+                  </select>
+            </div>
+            <div>
+                <input type="textarea" id="description"/>
+            </div>
+            
+            <input type="number" id="price"/>
+            <input type="radio" value="yes" name="isPlaying"/>
+            <input type="radio" value="no" name="isPlaying"/>
+            <div>
+                <button id="addTeamButton" onclick="addTeamFromUI()">Add Player</button>
+            </div>
+        </div>
+
+    </body>
+</html>

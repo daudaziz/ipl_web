@@ -1,0 +1,336 @@
+/* Define your CSS styles here */
+.team-card {
+  border: 1px solid #ddd;
+   width: 200px;
+   background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+   padding: 20px;
+   margin: 10px;
+   border-radius: 10px;
+   text-align: center;
+   cursor: pointer;
+   transition: transform 0.3s ease, box-shadow 0.3s ease;
+   height: 200px;
+
+}
+
+.team-card img {
+  max-width: 100px;
+  height: auto;
+  border-radius: 50%;
+
+}
+
+.player-card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  text-align:center;
+  cursor: pointer;
+}
+
+.player-card img {
+  max-width: 100px;
+}
+
+
+/*this is for the test*/
+
+/*for the ipl logo*/
+/*  margin and padding */
+body, h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* for background image   */
+body {
+  background-image: url('https://upload.wikimedia.org/wikipedia/en/thumb/8/84/Indian_Premier_League_Official_Logo.svg/1200px-Indian_Premier_League_Official_Logo.svg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Arial, sans-serif;
+  color: #fff;
+}
+
+/*  for the welcome message */
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 2rem;
+}
+
+/* value */
+a {
+  display: block;
+  text-align: center;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #ffcc00; 
+  margin: 1rem auto;
+  width: 150px;
+  transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+a:hover {
+  color: #ff9900; 
+}
+
+/* Style the team cards */
+
+
+.team-card:hover {
+  transform: scale(1.05); /* Enlarge on hover */
+  box-shadow: 0px 0px 10px rgba(255, 204, 0, 0.7); /* Add shadow on hover */
+}
+
+
+
+/* Style h2 inside team cards */
+.team-card h2 {
+  font-size: 1.8rem;
+  margin-top: 1rem;
+  text-transform: uppercase;
+}
+
+/* Style the top bar buttons */
+.top-bar {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+button {
+  background-color: #ffcc00;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin: 0 10px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff9900;
+}
+
+/* Style the search container */
+.search-container {
+  text-align: center;
+  margin: 2rem auto;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  width: 80%;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffcc00;
+  color: #000;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff9900;
+}
+
+/*new one for the */
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+}
+.container{
+  height: 550px;
+  width: 950px;
+  box-shadow: 3px 3px 16px rgba(0,0,0,7);
+}
+.images img{
+  height: 100%;
+  width: 100%;
+}
+
+
+/*second over*/
+/* Reset some default styles */
+body, h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Basic styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px;
+  color: #333;
+}
+
+/* Responsive styles */
+.team-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.team-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.team-card h2 {
+  margin-top: 10px;
+  font-size: 24px;
+  color: #333;
+}
+
+/* Top bar styles */
+.top-bar {
+  text-align: center;
+  margin-top: 20px;
+}
+
+button#add-team-button,
+button#add-player-button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 5px;
+  transition: background-color 0.3s;
+}
+
+button#add-team-button:hover,
+button#add-player-button:hover {
+  background-color: #555;
+}
+
+/* Search container styles */
+.search-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+input#team-code {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 200px;
+  font-size: 16px;
+}
+
+button#search-button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+button#search-button:hover {
+  background-color: #555;
+}
+
+/* Search results styles */
+#search-results {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* testing*/
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#teamList, #playerList {
+  margin: 20px;
+}
+
+
+/* testing */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: -30px;
+    height: 0px;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#teamList, #playerList {
+    margin: 20px;
+}
+
+.played{
+  
+  content: relative;
+
+}
+
+
+
+
+

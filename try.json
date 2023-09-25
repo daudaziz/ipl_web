@@ -1,0 +1,62 @@
+
+
+{
+    "teams": [
+      {
+        "name": "ROYAL CHALLENGERS BANGALORE",
+        "logo": "https://e0.pxfuel.com/wallpapers/662/66/desktop-wallpaper-rcb-logo-rcb-team-thumbnail.jpg"
+      },
+      {
+        "name": "MUMBAI INDIANS",
+        "logo": "https://wallpapers.com/images/hd/mumbai-indians-stylized-lettering-logo-9y583dm0eo8zc31a.jpg"
+      },
+      {
+        "name": "CHENNAI SUPER KINGS",
+        "logo": "https://i.pinimg.com/originals/85/52/f8/8552f811e95b998d9505c43a9828c6d6.jpg"
+      },
+      {
+        "name": "Kolkata Knight Riders",
+        "logo": "https://wallpapercave.com/wp/wp4298363.jpg"
+      },
+      {
+        "name": "Sunrisers Hyderabad",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/e/eb/Sunrisers_Hyderabad.png"
+      },
+      {
+        "name": "DELHI CAPITALS",
+        "logo": "https://wallpapercave.com/wp/wp7548626.jpg"
+      },
+      {
+        "name": "PUNJAB KINGS",
+        "logo": "https://www.punjabkingsipl.in/static-assets/images/cssimages/about-banner-mobile.png?v=3.0"
+      },
+      {
+        "name": "RAJASTHAN ROYALS",
+        "logo": "https://gumlet.assettype.com/digitalterminal/2023-03/0e5daf59-77c0-431e-bef0-2f611ea7175b/TATA_IPL_2023.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true"
+      }
+    ],
+    "players": [
+      {
+        "playerName": "PlayerName1",
+        "team": "ROYAL CHALLENGERS BANGALORE",
+        "price": "6.50 Cr",
+        "isPlaying": true,
+        "description": "All-rounder"
+      },
+      {
+        "playerName": "PlayerName2",
+        "team": "MUMBAI INDIANS",
+        "price": "5.75 Cr",
+        "isPlaying": true,
+        "description": "Batsman"
+      },
+      {
+        "playerName": "PlayerName3",
+        "team": "CHENNAI SUPER KINGS",
+        "price": "4.25 Cr",
+        "isPlaying": true,
+        "description": "Bowler"
+      }
+
+    ]
+}
